@@ -1,4 +1,30 @@
 header {
-  background-color: #ea5169;
+  background-color: #ea5169cc;
   color: black;
+}
+body {
+  font-family: sans-serif;
+}
+section {
+  background-color: #006600cc;
+}
+img {
+  float: none;
+  width: 120px;
+  height: 100px;
+  padding: 1px;
+  margin: 1px;
+  animation: fade-in 3s;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  background-color: #ea5169cc;
+  text-align: center;
 }
